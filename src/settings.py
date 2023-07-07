@@ -13,8 +13,8 @@ PROJECT_NAME_FULL: str = "Multi-View Dataset for Vehicle Detection in Complex Sc
 ##################################
 LICENSE: License = License.CC_BY_NC_SA_4_0()
 INDUSTRIES: List[Industry] = [Industry.AirDetection()]
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_YEAR: int = 2022
 HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/dronevision/vsaiv1"
@@ -29,7 +29,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/vsai"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/dronevision/vsaiv1/download?datasetVersionNumber=2"
+DOWNLOAD_ORIGINAL_URL: Optional[
+    Union[str, dict]
+] = "https://www.kaggle.com/datasets/dronevision/vsaiv1/download?datasetVersionNumber=2"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
