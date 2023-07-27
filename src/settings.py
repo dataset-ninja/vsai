@@ -23,7 +23,7 @@ PROJECT_NAME_FULL: str = (
 ##################################
 LICENSE: License = License.CC_BY_NC_SA_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Robotics(), Industry.Logistics(), Domain.VehicleDetection()]
-CATEGORY: Category = Category.Aerial(extra=[Category.Robotics(), Category.Surveillance()])
+CATEGORY: Category = Category.Aerial(extra=[Category.Drones(), Category.Surveillance()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
