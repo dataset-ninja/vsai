@@ -20,18 +20,18 @@ The VSAI dataset comprises 444 static images collected from various drone platfo
 
 In the VSAI dataset, the instances with line of sight (LOS) angles of (−30°, −25°) were the largest. Overall, the LOS angle distribution of the number of instances was not balanced, mainly concentrating on small observation angles in the range of (−45°, −15°).
 
-<img src="https://github.com/supervisely/supervisely/assets/78355358/cdef1a6a-fdc1-4abf-b2f6-32c096d3bd32" alt="image" width="800">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/cdef1a6a-fdc1-4abf-b2f6-32c096d3bd32" alt="image" width="400">
 
 
 VSAI covers six complicated scenes throughout China, including the desert, city, mountain, suburb, riverside, and seaside. The six scenarios also contain many subsets, such as cities, including the overhead bridge, crossroad, stadium, riverside embracing dam, bridge, etc. 
 
-<img src="https://github.com/supervisely/supervisely/assets/78355358/b05bab64-bfd1-4951-8b57-0d71b36d9d07" alt="image" width="800">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/b05bab64-bfd1-4951-8b57-0d71b36d9d07" alt="image" width="400">
 
 The authors also collected statistical information about the vehicles, including the vehicle’s orientation angles, instance length, and vehicle aspect ratio. Thus, the lengths of the vehicles were concentrated in the range of 0 to 75 pixels, signifying that there were numerous small instances in the VSAI dataset. At the same time, there was a considerable scale change in VSAI. In addition, distinct perspectives also resulted in a wider range of the vehicle aspect ratio rather than the aspect ratio of 2 or so in traditional down-view aerial images.
 
-<img src="https://github.com/supervisely/supervisely/assets/78355358/5eb53703-ceaa-490f-990b-749ebc8cd1d8" alt="image" width="800">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/5eb53703-ceaa-490f-990b-749ebc8cd1d8" alt="image" width="1200">
 
 
 Additionally, VSAI provides useful annotations with respect to the occlusion ratio. In this case, the proportion of vehicles being blocked to represent the occlusion ratio and define four levels of occlusions: no occlusion **N** (occlusion ratio 0%), small occlusion **S** (occlusion ratio < 30%), moderate occlusion **M** (occlusion ratio 30~70%), and large occlusion **L** (occlusion ratio > 70%), mainly for better reflecting the instance density of the instance location.
 
-<img src="https://github.com/supervisely/supervisely/assets/78355358/346818b4-511c-4573-afba-9232ba2ed48d" alt="image" width="800">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/346818b4-511c-4573-afba-9232ba2ed48d" alt="image" width="400">
