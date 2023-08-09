@@ -18,9 +18,9 @@ Furthermore, the authors emphasize the significance of identifying objects using
 
 The VSAI dataset comprises 444 static images collected from various drone platforms, including DJI Mavic Air, DJI Mavic 2 Pro, Phantom 3 Pro, Phantom 4, and 4 RTK. The dataset covers a wide range of technical parameters and was collected from various Chinese cities to ensure geographic diversity. Images were captured throughout the year, under various weather and lighting conditions, focusing on small vehicles (e.g., cars, minibuses, pickups) and large vehicles (e.g., buses, large trucks). The dataset aims to address the uneven distribution of vehicles in real-world scenarios.
 
-In the VSAI dataset, the instances with line of sight (LOS) angles of (−30°, −25°) were the largest. Overall, the LOS angle distribution of the number of instances was not balanced, mainly concentrating on small observation angles in the range of (−45°, −15°).
+In the VSAI dataset, the instances with a line of sight (LOS) angles of (−30°, −25°) were the largest. Overall, the LOS angle distribution of the number of instances was not balanced, mainly concentrating on small observation angles in the range of (−45°, −15°).
 
-<img src="https://github.com/supervisely/supervisely/assets/78355358/cdef1a6a-fdc1-4abf-b2f6-32c096d3bd32" alt="image" width="200">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/cdef1a6a-fdc1-4abf-b2f6-32c096d3bd32" alt="image" width="400">
 
 
 VSAI covers six complicated scenes throughout China, including the desert, city, mountain, suburb, riverside, and seaside. The six scenarios also contain many subsets, such as cities, including the overhead bridge, crossroad, stadium, riverside embracing dam, bridge, etc. 
