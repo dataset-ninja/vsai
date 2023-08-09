@@ -22,8 +22,11 @@ PROJECT_NAME_FULL: str = (
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_SA_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Robotics(), Industry.Logistics(), Domain.VehicleDetection()]
-CATEGORY: Category = Category.Aerial(extra=[Category.Drones(), Category.Surveillance()])
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Domain.VehicleDetection(),
+    Industry.Utilities(),
+]
+CATEGORY: Category = Category.Aerial(extra=[Category.Drones(), Category.EnergyAndUtilities()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -54,9 +57,18 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 PAPER: Optional[str] = "https://www.mdpi.com/2504-446X/6/7/161"
 CITATION_URL: Optional[str] = "https://www.kaggle.com/datasets/dronevision/vsaiv1?select=VSAI.TXT"
-AUTHORS: Optional[List[str]] = ["Wang, Jinghao" , "Teng, Xichao" , "Li, Zhang" , "Yu, Qifeng" , "Bian, Yijie" , "Wei, Jiaqi"]
+AUTHORS: Optional[List[str]] = [
+    "Wang, Jinghao",
+    "Teng, Xichao",
+    "Li, Zhang",
+    "Yu, Qifeng",
+    "Bian, Yijie",
+    "Wei, Jiaqi",
+]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "National University of Defense Technology, China"
+ORGANIZATION_NAME: Optional[
+    Union[str, List[str]]
+] = "National University of Defense Technology, China"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://english.nudt.edu.cn/"
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
