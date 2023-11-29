@@ -1,6 +1,6 @@
 Dataset **VSAI** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/Q/i/gy/s84whKDoOHaBUTEle2XTqEbNSNgAl2WZzMus30cDLJbKOtIvwjPMzHwHlHZpa4Cde0s8JT5XEJnFPN0EOoZFH6ydiwDYcRfXBJ0462mLl0f3IRopOtKsg88HM7rH.tar)
+ [Download](https://www.dropbox.com/scl/fi/c1owjih3tmn26e9eencyk/vsai-DatasetNinja.tar?rlkey=c1kicc5skzykoyzzi3cs2xvvr&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
